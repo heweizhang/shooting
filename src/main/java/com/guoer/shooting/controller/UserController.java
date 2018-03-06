@@ -1,5 +1,7 @@
 package com.guoer.shooting.controller;
 
+import com.guoer.shooting.domain.User;
+import com.guoer.shooting.utils.Result;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
@@ -16,13 +18,17 @@ public class UserController {
 
     @GetMapping("/index")
     @ResponseBody
-    public String index() {
-        return "index";
+    public Result<User> index() {
+        User user = new User();
+        user.setName("david");
+        user.setPhone("17505926606");
+        user.setPwd("aewar");
+        return Result.success(user);
     }
 
     @GetMapping("/login")
     public ModelAndView index(ModelAndView modelAndView) {
-        modelAndView.setViewName("/user/login");
+        modelAndView.setViewName("/login");
         return modelAndView;
     }
 

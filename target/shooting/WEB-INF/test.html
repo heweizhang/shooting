@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <script type="text/javascript">
+        function allowDrop(ev){
+            ev.preventDefault();
+        }
+
+        function drag(ev){
+            ev.dataTransfer.setData("text",ev.target.id);
+        }
+
+        function drop(ev){
+            ev.preventDefault();
+            var data = ev.dataTransfer.getData("text");
+            alert(data);
+            ev.target.appendChild(document.getElementById(data));
+        }
+
+    </script>
+
+</head>
+<body>
+<canvas id="Cid" width="200" height="200" ondrop="drop(event)" ondragover="allowDrop(event)" style="border: 1px solid #ccc;">
+    Your browser does not support the canvas tag
+</canvas>
+
+<img id="drag1" src="img/1.jpg" width="100" height="100" draggable="true" ondragstart="drag(event)" style="z-index: 5;" />
+</body>
+<script type="text/javascript">
+    //开始画图,通过javascript画出来
+    //1得到画布：
+    var canvas = document.getElementById("Cid");
+    //得到画笔,获得二维的画布
+    var ctx = canvas.getContext('2d');
+    //开始画圆
+    ctx.beginPath();
+    ctx.fillStyle = 'red';
+    //（圆心，半径，从三点为圆心，弧度）
+    //context.arc(x,y,r,sAngle,eAngle,counterclockwise);
+    //(x,y)圆的中心点坐标，r为半径，sAngle为起始角，以弧度计,(弧的圆形的三点钟位置是 0 度).eAngle为结束角，以弧度计
+    //counterclockwise：可选。规定应该逆时针还是顺时针绘图。False = 顺时针，true = 逆时针。
+    ctx.arc(100,100,50,0,Math.PI*2,true);
+    ctx.stroke();
+    ctx.closePath();
+    ctx.fill();
+
+
+</script>
+</html>
