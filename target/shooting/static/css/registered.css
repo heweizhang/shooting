@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+    background-color: transparent;
+    color: #969696;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-size: 18px;
+    line-height: 1.1;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+body {
+    background: #fff;
+    color: #555;
+    font-size: 14px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+form {
+    margin: 0 0 20px;
+}
+
+.login {
+    width: 100%;
+    height: 100%;
+    min-height: 750px;
+    background: #f1f1f1;
+    text-align: center;
+}
+
+.logo {
+    position: absolute;
+    top: 56px;
+    margin-left: 50px;
+}
+
+.logo img {
+    width: 112px;
+    height: auto;
+}
+
+.main {
+    width: 300px;
+    margin: 60px auto 0;
+    padding: 50px 50px 30px;
+    background: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .1);
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.title {
+    margin: 0 auto 50px;
+    padding: 10px;
+    font-weight: 400;
+    color: #969696;
+}
+
+.normal_title {
+
+}
+
+.sign_up {
+    font-weight: 700;
+    color: #ea6f5a;
+    border-bottom: 2px solid #ea6f5a;
+}
+
+.main form {
+    margin-bottom: 30px;
+}
+
+.input_user {
+    position: relative;
+    width: 100%;
+}
+
+.input_user input {
+    width: 84%;
+    height: 40px;
+    margin-bottom: 0;
+    padding: 4px 12px 4px 35px;
+    border: 1px solid #c8c8c8;
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
+    background-color: hsla(0, 0%, 71%, .1);
+    vertical-align: middle;
+}
+
+.input_pwd{
+    height: 50px;
+}
+
+.input_pwd input {
+    width: 84%;
+    height: 40px;
+    margin-bottom: 0;
+    padding: 4px 12px 4px 35px;
+    border: 1px solid #c8c8c8;
+    background-color: hsla(0, 0%, 71%, .1);
+    vertical-align: middle;
+}
+
+.sure_pwd input {
+    width: 84%;
+    height: 40px;
+    margin-bottom: 0;
+    padding: 4px 12px 4px 35px;
+    border: 1px solid #c8c8c8;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    background-color: hsla(0, 0%, 71%, .1);
+    vertical-align: middle;
+}
+
+.icon_user {
+    background: url("/static/img/login.png");
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+.icon_pwd {
+    background: url("/static/img/password.png") ;
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -36px;
+    left: 10px;
+}
+
+.remember_btn{
+    float: left;
+    margin-bottom: 15px;
+}
+
+.remember_btn span{
+    margin-left: 5px;
+    font-size: 15px;
+    color: #969696;
+    vertical-align: middle;
+}
+
+.forget_pwd{
+    float: right;
+}
+
+.forget_pwd a{
+    padding: 0;
+}
+
+.forget_pwd a:hover{
+    color: #333;
+}
+
+.login_btn{
+    width: 100%;
+    padding: 9px 18px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    background: #42c02e;
+    cursor: pointer;
+    outline: none;
+    display: block;
+    clear: both;
+}
+
+.sign_up_msg{
+    margin: 10px 0;
+    padding: 0;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    color: #969696;
+}
+
+.sign_up_msg a{
+    padding: 0;
+    color: #3194d0;
+}
