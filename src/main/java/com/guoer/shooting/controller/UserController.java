@@ -1,9 +1,11 @@
 package com.guoer.shooting.controller;
 
 import com.guoer.shooting.domain.User;
+import com.guoer.shooting.service.UserService;
 import com.guoer.shooting.utils.Result;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
@@ -17,8 +19,8 @@ public class UserController {
     @ResponseBody
     public Result<User> index() {
         User user = new User();
-        user.setName("david");
-        user.setPhone("17505926606");
+        user.setNickname("david");
+        user.setAccount("17505926606");
         user.setPwd("aewar");
         return Result.success(user);
     }
@@ -36,6 +38,9 @@ public class UserController {
     }
 
 
+    @Autowired
+    UserService userService;
+
     @GetMapping("/loginCheck")
     @ResponseBody
     public Result loginCheck(@RequestParam(required = false) String account, @RequestParam(required = false) String psw) {
@@ -47,9 +52,9 @@ public class UserController {
         if (psw == null) {
             return Result.error("密码不能为空");
         }
-        if (account.equals("1111") || psw.equals("1234")) {
-            return Result.error("密码不能为空");
+        if (userService.loginCheck(account, psw)) {
+            return Result.success();
         }
-        return Result.success();
+        return Result.error("账号或密码错误!");
     }
 }
