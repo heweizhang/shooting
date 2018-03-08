@@ -7,19 +7,126 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fa2cb65-b044-4b6f-83db-95cc7bfd7c1b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/guoer/shooting/responsity/UserResponsity.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/guoer/shooting/service/UserService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/guoer/shooting/service/impl/UserServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/com/guoer/shooting/service/UserServiceImplTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/a.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/api_data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/api_data.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/api_project.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/api_project.json" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/shooting.iml" afterPath="$PROJECT_DIR$/shooting.iml" />
+      <change beforePath="$PROJECT_DIR$/apidoc/api/user.js" afterPath="$PROJECT_DIR$/apidoc/api/user.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/apidoc.json" afterPath="$PROJECT_DIR$/apidoc/apidoc.json" />
+      <change beforePath="$PROJECT_DIR$/apidoc/build.sh" afterPath="$PROJECT_DIR$/apidoc/build.sh" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/api_data.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/api_data.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/api_project.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/api_project.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/css/style.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/css/style.css" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/img/favicon.ico" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/img/favicon.ico" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/index.html" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/locales/ca.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/locales/ca.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/locales/de.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/locales/de.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/locales/es.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/locales/es.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/locales/fr.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/locales/fr.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/locales/it.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/locales/it.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/locales/locale.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/locales/locale.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/locales/nl.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/locales/nl.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/locales/pl.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/locales/pl.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/locales/pt_br.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/locales/pt_br.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/locales/ro.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/locales/ro.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/locales/ru.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/locales/ru.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/locales/tr.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/locales/tr.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/locales/vi.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/locales/vi.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/locales/zh.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/locales/zh.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/locales/zh_cn.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/locales/zh_cn.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/main.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/main.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/utils/handlebars_helper.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/utils/handlebars_helper.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/utils/send_sample_request.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/utils/send_sample_request.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/bootstrap.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/bootstrap.min.css" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/bootstrap.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/bootstrap.min.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/diff_match_patch.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/diff_match_patch.min.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/handlebars.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/handlebars.min.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/jquery.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/jquery.min.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/list.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/list.min.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/lodash.custom.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/lodash.custom.min.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/path-to-regexp/LICENSE" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/path-to-regexp/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/path-to-regexp/index.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/path-to-regexp/index.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/polyfill.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/polyfill.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify.css" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-Splus.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-Splus.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-aea.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-aea.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-agc.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-agc.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-apollo.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-apollo.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-basic.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-basic.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-cbm.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-cbm.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-cl.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-cl.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-clj.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-clj.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-css.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-css.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-dart.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-dart.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-el.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-el.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-erl.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-erl.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-erlang.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-erlang.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-fs.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-fs.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-go.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-go.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-hs.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-hs.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-lasso.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-lasso.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-lassoscript.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-lassoscript.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-latex.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-latex.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-lgt.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-lgt.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-lisp.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-lisp.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-ll.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-ll.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-llvm.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-llvm.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-logtalk.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-logtalk.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-ls.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-ls.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-lsp.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-lsp.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-lua.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-lua.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-matlab.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-matlab.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-ml.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-ml.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-mumps.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-mumps.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-n.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-n.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-nemerle.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-nemerle.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-pascal.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-pascal.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-proto.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-proto.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-r.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-r.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-rd.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-rd.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-rkt.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-rkt.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-rust.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-rust.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-s.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-s.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-scala.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-scala.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-scm.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-scm.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-sql.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-sql.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-ss.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-ss.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-swift.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-swift.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-tcl.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-tcl.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-tex.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-tex.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-vb.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-vb.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-vbs.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-vbs.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-vhd.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-vhd.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-vhdl.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-vhdl.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-wiki.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-wiki.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-xq.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-xq.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-xquery.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-xquery.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-yaml.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-yaml.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/lang-yml.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/lang-yml.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/prettify.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/prettify.css" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/prettify.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/prettify.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/prettify/run_prettify.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/prettify/run_prettify.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/require.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/require.min.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/semver.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/semver.min.js" />
+      <change beforePath="$PROJECT_DIR$/apidoc/docs/vendor/webfontloader.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/docs/vendor/webfontloader.js" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/guoer/shooting/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/guoer/shooting/controller/UserController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/guoer/shooting/domain/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/guoer/shooting/domain/User.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guoer/shooting/responsity/UserResponsity.java" afterPath="$PROJECT_DIR$/src/main/java/com/guoer/shooting/responsity/UserResponsity.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guoer/shooting/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/guoer/shooting/service/UserService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guoer/shooting/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/guoer/shooting/service/impl/UserServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/guoer/shooting/service/UserServiceImplTest.java" afterPath="$PROJECT_DIR$/src/test/com/guoer/shooting/service/UserServiceImplTest.java" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/guoer/shooting/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/guoer/shooting/controller/UserController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/guoer/shooting/domain/User.class" afterPath="$PROJECT_DIR$/target/classes/com/guoer/shooting/domain/User.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/guoer/shooting/service/UserService.class" afterPath="$PROJECT_DIR$/target/classes/com/guoer/shooting/service/UserService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/guoer/shooting/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/guoer/shooting/service/impl/UserServiceImpl.class" />
       <change beforePath="$PROJECT_DIR$/target/shooting/WEB-INF/classes/com/guoer/shooting/controller/UserController.class" afterPath="$PROJECT_DIR$/target/shooting/WEB-INF/classes/com/guoer/shooting/controller/UserController.class" />
-      <change beforePath="$PROJECT_DIR$/target/shooting/WEB-INF/classes/com/guoer/shooting/domain/User.class" afterPath="$PROJECT_DIR$/target/shooting/WEB-INF/classes/com/guoer/shooting/domain/User.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/guoer/shooting/service/UserServiceImplTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/guoer/shooting/service/UserServiceImplTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,7 +145,23 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shooting@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shooting@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shooting@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="shooting: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileEditorManager">
@@ -46,8 +169,8 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/guoer/shooting/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="843">
-              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state relative-caret-position="332">
+              <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,11 +178,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="a.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/a.java">
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/guoer/shooting/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="185">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="apidoc.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apidoc/apidoc.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -106,6 +239,7 @@
       <find>ajax</find>
       <find>username</find>
       <find>POST</find>
+      <find>register account:</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -125,9 +259,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/htmls/test.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/htmls/user/login.html" />
         <option value="$PROJECT_DIR$/build.sh" />
-        <option value="$PROJECT_DIR$/apidoc/apidoc.json" />
-        <option value="$PROJECT_DIR$/apidoc/build.sh" />
-        <option value="$PROJECT_DIR$/apidoc/api/user.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/1.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/css/login.css" />
@@ -136,13 +267,16 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/registered.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/login.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/guoer/shooting/domain/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/guoer/shooting/responsity/UserResponsity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/guoer/shooting/service/impl/UserServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/com/guoer/shooting/service/UserServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/guoer/shooting/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/guoer/shooting/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/guoer/shooting/service/UserServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/apidoc/apidoc.json" />
+        <option value="$PROJECT_DIR$/apidoc/build.sh" />
+        <option value="$PROJECT_DIR$/apidoc/api/user.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guoer/shooting/responsity/UserResponsity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guoer/shooting/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/guoer/shooting/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/test/com/guoer/shooting/service/UserServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guoer/shooting/service/impl/UserServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -184,11 +318,9 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/apidoc/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1280" />
-    <option name="y" value="-280" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -279,33 +411,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="shooting" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shooting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shooting" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shooting" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shooting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shooting" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shooting" type="462c0819:PsiDirectoryNode" />
-              <item name="responsity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shooting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shooting" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shooting" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -317,13 +422,6 @@
               <item name="shooting" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shooting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shooting" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shooting" type="b2602c69:ProjectViewProjectNode" />
@@ -385,7 +483,8 @@
               <item name="shooting" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shooting" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -408,6 +507,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -424,10 +524,10 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/static" />
       <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$/src/test/com/guoer/shooting/service" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/static" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -443,7 +543,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceImplTest.loginCheckTest (1)">
+  <component name="RunManager" selected="Tomcat Server.shooting:8080">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -473,31 +573,6 @@
       <option name="PARAMETERS" value="" />
       <module name="shooting" />
       <envs />
-    </configuration>
-    <configuration name="UserServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="java.com.guoer.shooting.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="shooting" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="java.com.guoer.shooting.service" />
-      <option name="MAIN_CLASS_NAME" value="java.com.guoer.shooting.service.UserServiceImplTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
     </configuration>
     <configuration name="UserServiceImplTest.loginCheckTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -537,6 +612,56 @@
       <option name="PACKAGE_NAME" value="java.com.guoer.shooting.service" />
       <option name="MAIN_CLASS_NAME" value="java.com.guoer.shooting.service.UserServiceImplTest" />
       <option name="METHOD_NAME" value="loginCheckTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="UserServiceImplTest.register" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.guoer.shooting.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="shooting" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.guoer.shooting.service" />
+      <option name="MAIN_CLASS_NAME" value="com.guoer.shooting.service.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="register" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="UserServiceImplTest.registerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.guoer.shooting.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="shooting" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.guoer.shooting.service" />
+      <option name="MAIN_CLASS_NAME" value="com.guoer.shooting.service.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="registerTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -603,7 +728,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.231" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="shooting:8080" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.231" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="shooting:war exploded">
           <settings>
@@ -761,19 +886,21 @@
       <patterns />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat" />
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.shooting:8080" />
       <item index="1" class="java.lang.String" itemvalue="Bash.build.sh" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest.loginCheckTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest.loginCheckTest (1)" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest.loginCheckTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest.loginCheckTest (1)" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest.register" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest.registerTest" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest.loginCheckTest (1)" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest.loginCheckTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest" />
-        <item index="3" class="java.lang.String" itemvalue="Bash.build.sh" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest.registerTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest.register" />
+        <item index="2" class="java.lang.String" itemvalue="Bash.build.sh" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest.loginCheckTest (1)" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest.loginCheckTest" />
       </list>
     </recent_temporary>
   </component>
@@ -794,17 +921,11 @@
       <workItem from="1519696798980" duration="3799000" />
       <workItem from="1520306230682" duration="12609000" />
       <workItem from="1520384948300" duration="3881000" />
-      <workItem from="1520389177639" duration="20617000" />
+      <workItem from="1520389177639" duration="26925000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserServiceImplTest - 2018.03.07 at 17h 16m 28s.xml">
-      <configuration name="UserServiceImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceImplTest_loginCheckTest - 2018.03.07 at 17h 17m 02s.xml">
-      <configuration name="UserServiceImplTest.loginCheckTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserServiceImplTest_loginCheckTest - 2018.03.07 at 17h 18m 28s.xml">
       <configuration name="UserServiceImplTest.loginCheckTest" configurationId="JUnit" />
     </history-entry>
@@ -820,12 +941,27 @@
     <history-entry file="UserServiceImplTest_loginCheckTest_(1) - 2018.03.07 at 17h 25m 56s.xml">
       <configuration name="UserServiceImplTest.loginCheckTest (1)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserServiceImplTest_register - 2018.03.08 at 11h 48m 58s.xml">
+      <configuration name="UserServiceImplTest.register" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_register - 2018.03.08 at 11h 49m 35s.xml">
+      <configuration name="UserServiceImplTest.register" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_register - 2018.03.08 at 11h 57m 36s.xml">
+      <configuration name="UserServiceImplTest.register" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_registerTest - 2018.03.08 at 11h 58m 00s.xml">
+      <configuration name="UserServiceImplTest.registerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_registerTest - 2018.03.08 at 11h 59m 08s.xml">
+      <configuration name="UserServiceImplTest.registerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41722000" />
+    <option name="totallyTimeSpent" value="48030000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="-280" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -835,7 +971,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31260097" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -846,11 +982,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29603255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21763869" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21884984" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33198708" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1067,48 +1203,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apidoc/api/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apidoc/docs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="97" column="12" lean-forward="true" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apidoc/build.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apidoc/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apidoc/apidoc.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1194,26 +1288,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="83" column="7" lean-forward="false" selection-start-line="83" selection-start-column="7" selection-end-line="83" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/guoer/shooting/service/UserServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guoer/shooting/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1226,10 +1304,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guoer/shooting/service/impl/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/a.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="83" column="7" lean-forward="false" selection-start-line="83" selection-start-column="7" selection-end-line="83" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guoer/shooting/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apidoc/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/72a481df-0c8b-4f08-b5bf-c7b7216329e5/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apidoc/api/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="97" column="12" lean-forward="false" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apidoc/apidoc.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.13.7.RELEASE/spring-data-commons-1.13.7.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/d6bb9dba/72a481df-0c8b-4f08-b5bf-c7b7216329e5/shooting.user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apidoc/build.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="46" lean-forward="false" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guoer/shooting/responsity/UserResponsity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guoer/shooting/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1238,48 +1413,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/guoer/shooting/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        <state relative-caret-position="165">
+          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guoer/shooting/responsity/UserResponsity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/guoer/shooting/service/UserServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        <state relative-caret-position="210">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guoer/shooting/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guoer/shooting/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="843">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/a.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="185">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>

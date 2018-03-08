@@ -6,4 +6,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 public interface UserResponsity extends JpaRepository<User,Integer> {
 
     User findUserByAccountAndPwd(String account,String pwd);
+
+    User findUserByAccount(String account);
 }

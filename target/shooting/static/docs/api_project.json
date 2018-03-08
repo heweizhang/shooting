@@ -1,0 +1,1 @@
+{  "name": "API文档",  "version": "1.0.0",  "description": "Shooting share 接口文档",  "title": "API文档",  "sampleUrl": "http://localhost:8080",  "defaultVersion": "0.0.0",  "apidoc": "0.3.0",  "generator": {    "name": "apidoc",    "time": "2018-03-08T03:42:09.074Z",    "url": "http://apidocjs.com",    "version": "0.17.6"  }}
