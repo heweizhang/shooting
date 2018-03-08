@@ -26,11 +26,15 @@ public class UserServiceImpl implements UserService {
         if (null != userResponsity.findUserByAccount(account)) {//用户已才存在
             return Result.error("已存在该用户");
         }
-        User user = new User();
-        user.setAccount(account);
-        user.setPwd(psw);
-        if (userResponsity.save(user) != null) {
-            return Result.success();
+        try {
+            User user = new User();
+            user.setAccount(account);
+            user.setPwd(psw);
+            if (userResponsity.save(user) != null) {
+                return Result.success();
+            }
+        } catch (Exception e) {
+            return Result.error(e.toString());
         }
         return Result.error("注册失败");
     }
