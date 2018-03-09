@@ -3,6 +3,7 @@ package com.guoer.shooting.service.impl;
 import com.guoer.shooting.domain.User;
 import com.guoer.shooting.responsity.UserResponsity;
 import com.guoer.shooting.service.UserService;
+import com.guoer.shooting.utils.Constant;
 import com.guoer.shooting.utils.Result;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -24,18 +25,16 @@ public class UserServiceImpl implements UserService {
     @Override
     public Result register(String account, String psw) {
         if (null != userResponsity.findUserByAccount(account)) {//用户已才存在
-            return Result.error("已存在该用户");
+            return Result.error(Constant.ACCOUNT_EXIST);
         }
+        User user = new User();
+        user.setAccount(account);
+        user.setPwd(psw);
         try {
-            User user = new User();
-            user.setAccount(account);
-            user.setPwd(psw);
-            if (userResponsity.save(user) != null) {
-                return Result.success();
-            }
+            userResponsity.save(user);
         } catch (Exception e) {
             return Result.error(e.toString());
         }
-        return Result.error("注册失败");
+        return Result.success();
     }
 }

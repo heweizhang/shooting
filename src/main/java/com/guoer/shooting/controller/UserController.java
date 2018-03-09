@@ -2,6 +2,7 @@ package com.guoer.shooting.controller;
 
 import com.guoer.shooting.domain.User;
 import com.guoer.shooting.service.UserService;
+import com.guoer.shooting.utils.Constant;
 import com.guoer.shooting.utils.Result;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -47,25 +48,25 @@ public class UserController {
         logger.info("account={}, psw={}", account, psw);
 
         if (account == null) {
-            return Result.error("账号不能为空");
+            return Result.error(Constant.ACCOUNT_ISNULL);
         }
         if (psw == null) {
-            return Result.error("密码不能为空");
+            return Result.error(Constant.PWD_ISNULL);
         }
         if (userService.loginCheck(account, psw)) {
             return Result.success();
         }
-        return Result.error("账号或密码错误!");
+        return Result.error(Constant.ACCOUNT_OR_PWD_ERROR);
     }
 
     @RequestMapping("/api/v1/user/register")
     @ResponseBody
     public Result register(@RequestParam(required = false) String account, @RequestParam(required = false) String psw) {
         if (account == null) {
-            return Result.error("账号不能为空");
+            return Result.error(Constant.ACCOUNT_ISNULL);
         }
         if (psw == null) {
-            return Result.error("密码不能为空");
+            return Result.error(Constant.PWD_ISNULL);
         }
         return userService.register(account, psw);
     }
