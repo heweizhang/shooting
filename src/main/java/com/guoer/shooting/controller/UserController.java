@@ -8,7 +8,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
@@ -21,8 +24,8 @@ public class UserController {
     public Result<User> index() {
         User user = new User();
         user.setNickname("david");
-        user.setAccount("17505926606");
-        user.setPwd("aewar");
+        user.setAccount("17505926607");
+        user.setPwd("default_user_avatar.png");
         return Result.success(user);
     }
 
@@ -70,4 +73,6 @@ public class UserController {
         }
         return userService.register(account, psw);
     }
+
+
 }

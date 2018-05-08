@@ -1,4 +1,9 @@
+com/guoer/shooting/utils/Constant.class
+com/guoer/shooting/utils/Result.class
+com/guoer/shooting/aspect/HttpAspect.class
 com/guoer/shooting/controller/UserController.class
 com/guoer/shooting/App.class
-com/guoer/shooting/utils/Result.class
+com/guoer/shooting/service/impl/UserServiceImpl.class
+com/guoer/shooting/responsity/UserResponsity.class
+com/guoer/shooting/service/UserService.class
 com/guoer/shooting/domain/User.class

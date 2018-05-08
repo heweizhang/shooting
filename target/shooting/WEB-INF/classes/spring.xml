@@ -62,7 +62,5 @@
 
     <!-- aop 注解实现 -->
     <aop:aspectj-autoproxy/>
-    <bean class="com.guoer.shooting.aspect.HttpAspect" />
-    <bean class="com.guoer.shooting.aspect.Audience" />
 
 </beans>

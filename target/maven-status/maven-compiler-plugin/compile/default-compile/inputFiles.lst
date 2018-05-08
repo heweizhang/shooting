@@ -1,4 +1,9 @@
 /Users/zhanghewei/IdeaProjects/shooting/src/main/java/com/guoer/shooting/controller/UserController.java
 /Users/zhanghewei/IdeaProjects/shooting/src/main/java/com/guoer/shooting/App.java
+/Users/zhanghewei/IdeaProjects/shooting/src/main/java/com/guoer/shooting/utils/Constant.java
+/Users/zhanghewei/IdeaProjects/shooting/src/main/java/com/guoer/shooting/responsity/UserResponsity.java
 /Users/zhanghewei/IdeaProjects/shooting/src/main/java/com/guoer/shooting/utils/Result.java
+/Users/zhanghewei/IdeaProjects/shooting/src/main/java/com/guoer/shooting/aspect/HttpAspect.java
+/Users/zhanghewei/IdeaProjects/shooting/src/main/java/com/guoer/shooting/service/UserService.java
 /Users/zhanghewei/IdeaProjects/shooting/src/main/java/com/guoer/shooting/domain/User.java
+/Users/zhanghewei/IdeaProjects/shooting/src/main/java/com/guoer/shooting/service/impl/UserServiceImpl.java
